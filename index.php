@@ -7,6 +7,13 @@
             body{
                 background-color: #fdc;
             }
+            
+            #answer{
+                background-color: #f4f4f4;
+                padding: 30px;
+                border-radius: 5px;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -34,6 +41,10 @@
                         <input type="submit" name="submit" value="Calculate" class="btn btn-sucess">
                         <input type="reset" value="Clear" class="btn btn-danger">
                     </form>
+                    <br>
+                    <h4>Usted debe pagar:</h4>
+                    
+                    <div id="answer"></div>
                 </div>
                 <div class="col-lg-3"></div>
             </div>
