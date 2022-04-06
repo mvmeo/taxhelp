@@ -32,7 +32,7 @@
                         <input type="number" name="marzo" placeholder="Honorario Bruto Marzo" class="form-control">
                         <br>
                         <p>Escoge alguna operación del servicio de impuestos internos: </p>
-                        <select name="Operate" class="form-control">
+                        <select name="Operator" class="form-control">
                             <option>Ninguna</option>
                             <option>Sumatoria Impuestos Retenidos</option>
                             <option>Sumatoria Honorarios Brutos Retenidos</option>
@@ -44,7 +44,24 @@
                     <br>
                     <h4>Usted debe pagar:</h4>
                     
-                    <div id="answer"></div>
+                    <div id="answer">
+                    <?php
+                        if(isset($_POST['submit'])){
+                            $result1 = $_POST['enero'];
+                            $result2 = $_POST['febrero'];
+                            $sign = $_POST['Operator'];
+                            switch($sign){
+                            case 'None':
+                                echo "Porfavor, escoge un operador";
+                                break;
+
+                            case 'Sumatoria Impuestos Retenidos':
+                                echo $result1 + $result2;
+                                break;
+                            }
+                        }
+                    ?>
+                    </div>
                 </div>
                 <div class="col-lg-3"></div>
             </div>
