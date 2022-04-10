@@ -1,0 +1,46 @@
+body{
+    background-color: #fff;
+}
+
+h1, h2, h3{
+    font-family: 'Fugaz One', cursive;
+    color: #272729;
+    margin-top: 20px;
+}
+
+.boton-calcular{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.boton-clear{
+    margin-left: 15px;
+}
+
+.boton-insert{
+    margin-left: 15px;
+}
+
+.left-div{
+    margin: 20px;
+    background-color: #DEDEC3;
+}
+
+.right-div{
+    margin: 20px;
+}
+
+select{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#answer{
+    background-color: #DEDEC3;
+    font-family: 'Monserrat', sans-serif;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
