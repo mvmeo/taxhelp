@@ -130,8 +130,7 @@
                             } else if ($tramo > 58504680.00 and $tramo <= 78006240.00){
                                 $totalFactor = $tramo*0.304;
                             } else if ($tramo > 78006240.00 and $tramo <= 201516120.00){
-                                $totalFactor = $tramo*0.35;
-                            } else if ($tramo > 201516120.00){
+                                $totalFactor = $tramo*0.35; } else if ($tramo > 201516120.00){
                                 $totalFactor = $tramo*0.40;
                             }
 
@@ -154,8 +153,13 @@
                             }
 
                             $resultadoSistema = $impuestosRetenidos - $factorMenosRebaja;
+                            
+                            if($resultadoSistema > 0){
+                                $mensajeFinal = 'A usted le tienen que pagar: ' . $resultadoSistema;
 
-                            $mensajeFinal = 'Usted tiene que pagar ' . $resultadoSistema;
+                            }else{
+                                $mensajeFinal = 'Usted tiene que pagar: ' . $resultadoSistema;
+                            }
 
                             $sign = $_POST['Operator'];
                             switch($sign){
