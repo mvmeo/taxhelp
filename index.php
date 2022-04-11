@@ -15,10 +15,12 @@
         <div class="container">
             <div class="row">
             <div class="left-div col-lg-3">
-                <h3>FAQs</h3>
-                <p><a href="#">¿Cómo funciona la aplicación?</a></p>
+                <h3>Uso</h3>
+                <p>Dentro de las virtudes de la aplicacion encontraremos su facilidad para poder obtener la cantidad de impuestos a pagar en tesorería
+                    en el mes de abril del próxima año</p>
+                <!-- <p><a href="#">¿Cómo funciona la aplicación?</a></p> 
                 <p><a href="#">¿A quién está dirigido?</a></p>
-                <p><a href="#">Conocer tabla de servicio de impuestos internos (SII)</a></p>                
+                <p><a href="#">Conocer tabla de servicio de impuestos internos (SII)</a></p> -->
             </div>
                 <div class="col-lg-6">
 
