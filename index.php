@@ -17,7 +17,7 @@
             <div class="left-div col-lg-3">
                 <h3>Uso</h3>
                 <p>Dentro de las virtudes de la aplicacion encontraremos su facilidad para poder obtener la cantidad de impuestos a pagar en tesorería
-                    en el mes de abril del próxima año</p>
+                    en el mes de abril del próximo año.</p>
                 <!-- <p><a href="#">¿Cómo funciona la aplicación?</a></p> 
                 <p><a href="#">¿A quién está dirigido?</a></p>
                 <p><a href="#">Conocer tabla de servicio de impuestos internos (SII)</a></p> -->
